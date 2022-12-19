@@ -1,0 +1,25 @@
+#login-form {
+    margin:260px 0px;
+    margin-right: 100px;
+}
+
+#login-form input {
+  border:none;
+  height:80px;
+  width:33%;
+  position: absolute;
+  left:35px;
+  background: transparent;
+  border-bottom: 1px solid rgba(0,0,0,0.5);
+  font-size:45px;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+#login-form input:focus {
+    outline:none;
+    border-color:var(--login-color);
+    border-bottom: 1.5px solid rgba(0,0,0,0.2);
+    transition: border-color 0.5s ease-in-out;
+    cursor:auto;
+}
+
