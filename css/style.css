@@ -1,3 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import "reset.css";
+@import "variables.css";
+
+/* Components */
+
+@import "components/status-bar.css";
+
+/* Screen */
+@import "screen/background.css";
+@import "screen/login.css";
+
 .hidden {
     display:none;
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+
+
