@@ -1,0 +1,10 @@
+html {
+    background: url("C:/Users/wkdtn/Desktop/momentum-clonecoding/img/0.jpeg")  no-repeat center center fixed;
+    background-size: cover;
+}
+
+body{
+    display: flex;
+    overflow:hidden;
+    height:100%;
+}
